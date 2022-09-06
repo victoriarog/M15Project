@@ -1,0 +1,10 @@
+.introtxt {
+    color: var(--color-smoky);
+    /* padding-left: 10vh; */
+}
+
+.img {
+    position: relative;
+    left: 75%;
+    top: 30vh;
+}

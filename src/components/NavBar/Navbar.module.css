@@ -1,0 +1,8 @@
+.navbar {
+  float: right;
+  color: var(--color-smoky);
+}
+
+li {
+  display: inline-block;
+}

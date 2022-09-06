@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Trirong&display=swap");
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --base-font-size: 16;
+
+  /* palette colors */
+  --color-venetian: #cc1512;
+  --color-purple: purple;
+
+  --color-smoky: #111111;
+  --color-seaweed: #177e89;
+  --color-teal: #598381;
+  --color-artichoke: #8e936d;
+  --color-olive: #a2ad59;
+  --color-cream: #EFD6AC;
+  --color-green: #183A37;
+
+  --button-bg-color: var(--color-venetian);
+  --error-color: var(--color-purple);
+
+  background-color: var(--color-cream);
+}
+
+body {
+  font-size: 16px;
+}
+
+.App {
+  font-family: "Trirong", serif;
+  height: 100%;
+  width: 100%;
+}
+
+
+.Test {
+  font-family: "Trirong", serif;
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  /* overflow-y: hidden; */
+}
