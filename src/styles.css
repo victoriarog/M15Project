@@ -13,7 +13,7 @@
 
   /* palette colors */
   --color-venetian: #cc1512;
-  --color-purple: purple;
+  --color-purple: #432534;
 
   --color-smoky: #111111;
   --color-seaweed: #177e89;
@@ -22,6 +22,8 @@
   --color-olive: #a2ad59;
   --color-cream: #EFD6AC;
   --color-green: #183A37;
+  --color-orangeb: #C44900;
+  --color-umbra: #B33E38;
 
   --button-bg-color: var(--color-venetian);
   --error-color: var(--color-purple);
