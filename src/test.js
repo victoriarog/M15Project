@@ -7,6 +7,7 @@ import  Landing  from "../src/components/Landing";
 import  BookFlip  from "../src/components/BookFlip";
 import Cards from "../src/components/Cards";
 import { ParallaxProvider } from 'react-scroll-parallax';
+import Spin from "../src/components/Spin";
 
 
 
@@ -16,8 +17,9 @@ export default function Test() {
     <div className="Test">
       <ParallaxProvider>
       <Container>
+      {/* <Spin /> */}
       <Navbar />
-      <Spacer size={32} />
+      {/* <Spacer size={32} /> */}
       <Landing />
       </Container>
       <Container>
