@@ -4,6 +4,7 @@ import { Spacer } from "../Spacer";
 export const Navbar = () => {
   return (
     <div className={s.nb}>
+      <img src={"dog1.png"} />
       <ul className={s.navbar}>
         <Spacer
           style={{ display: "inline-block" }}

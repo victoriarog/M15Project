@@ -7,4 +7,6 @@
     position: relative;
     left: 75%;
     top: 30vh;
+    height: 200px;
+    width: auto;
 }

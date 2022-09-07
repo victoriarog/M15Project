@@ -5,7 +5,7 @@ import { Heading1, Heading2, SectionTitle, Texts } from "../Text";
 export const Landing = () => {
     return (
             <div className={s.introtxt}>
-            <img src="http://placekitten.com/200/200" className={s.img} />
+            <img src={"assets/dog1.png"} className={s.img} />
             <Spacer size={64} />
             <Heading1>henlo</Heading1>
             <Heading2>my name is ?!</Heading2>
