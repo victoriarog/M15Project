@@ -1,8 +1,37 @@
 .navbar {
   float: right;
-  color: var(--color-smoky);
+  color: var(--color-teal);
+  padding-top: 0.7rem;
 }
 
 li {
   display: inline-block;
+}
+
+.bookmark {
+  position: relative;
+  transform: rotate(-90deg);
+  height: 130rem;
+  width: 7rem;
+  float: right;
+  z-index: -2;
+  margin-top: -60rem;
+}
+
+.line {
+  position: relative;
+  transform: rotate(-90deg);
+  height: 70rem;
+  width: 6rem;
+  float: right;
+  z-index: -2;
+  margin-top: -29rem;
+}
+
+.letters {
+  color: var(--color-green);
+  font-size: clamp(2.5rem, 4.2vw, 3rem);
+  left: 42rem;
+  position: absolute;
+  padding-top: 4rem;
 }
