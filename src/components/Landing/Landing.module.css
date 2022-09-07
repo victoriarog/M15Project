@@ -1,5 +1,5 @@
 .introtxt {
-    color: var(--color-smoky);
+    color: var(--color-purple);
     /* padding-left: 10vh; */
 }
 
@@ -9,22 +9,26 @@
     top: 30vh;
     height: 200px;
     width: auto;
-}
-
-.blob, .blob1 {
-    z-index: -1;
-    position: relative;
-    left: 60rem;
-    top: 15rem;
+    z-index: 5;
 }
 
 .blob {
-    height: 5rem;
+    height: 15rem;
     width: auto;
     opacity: 0.7;
+    z-index: -5;
+    
+    position:relative;
+    left: 50rem;
+    top: 10rem;
 }
 
 .blob1 {
-    height: 5rem;
+    height: 13rem;
     width: auto;
+    z-index: 2;
+    
+    position: relative;
+    left: 50rem;
+    top: 10rem;
 }

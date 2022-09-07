@@ -31,7 +31,7 @@ li {
 .letters {
   color: var(--color-green);
   font-size: clamp(2.5rem, 4.2vw, 3rem);
-  left: 42rem;
-  position: absolute;
+  left: 32rem;
+  position: relative;
   padding-top: 4rem;
 }
