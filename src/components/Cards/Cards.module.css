@@ -1,10 +1,10 @@
 .cardline {
-  padding-top: 5rem;
+  padding-top: 15rem;
 
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 1fr;
-  grid-column-gap: 2.5rem;
+  grid-column-gap: 1.5rem;
   grid-row-gap: 0px; 
 }
 
@@ -19,7 +19,7 @@
 }
 
 .cardImg {
-  height: 200px;
+  height: 150px;
   width: auto;
   
   display: block;

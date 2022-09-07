@@ -3,7 +3,8 @@
 }
 
 .book {
-  padding-left: 20vw;
+  position: relative;
+  padding-left: 15rem;
   padding-top: 5rem;
 }
   
