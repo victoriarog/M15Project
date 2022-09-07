@@ -8,21 +8,21 @@ export const Cards = () => {
         <div className={s.cardline}>
 
             <div class={s.card}>
-                <img src="http://placekitten.com/200/200" className={s.cardImg}/>
+                <img src={"assets/dog2.png"} className={s.cardImg}/>
                 <div class={s.container}>
                 <Texts>Woooof</Texts>
                 </div>
             </div>
 
         <div class={s.card}>
-            <img src="http://placekitten.com/200/200" className={s.cardImg}/>
+            <img src={"assets/dog2.png"} className={s.cardImg}/>
             <div class={s.container}>
             <Texts>Woooof</Texts>
             </div>
         </div>
 
         <div class={s.card}>
-            <img src="http://placekitten.com/200/200" className={s.cardImg}/>
+            <img src={"assets/dog2.png"} className={s.cardImg}/>
             <div class={s.container}>
             <Texts>Woooof</Texts>
             </div>

@@ -1,8 +1,9 @@
 .demoPage {
-    background-color: var(--color-artichoke);
-  }
+  background-color: var(--color-artichoke);
+}
 
 .book {
-    padding-left: 20vw;
+  padding-left: 20vw;
+  padding-top: 5rem;
 }
   
