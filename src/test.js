@@ -20,11 +20,11 @@ export default function Test() {
       <Landing />
       </Container>
       <Container>
-      <BookFlip />
+      <Cards />
       </Container>
       <Container>
-        <Cards />
-      </Container>
+      <BookFlip />
+      </Container>     
     </div>
   );
 }
