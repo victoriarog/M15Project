@@ -11,7 +11,7 @@ export const Cards = () => {
     const [flip2, setFlip2] = useState(false);
     const [flip3, setFlip3] = useState(false);
     return (
-        <Parallax translateY={[-20, 20]} speed={5}>
+        <Parallax translateY={[0, 0]} speed={5}>
         <h2 className={s.ht}>About me</h2>
         <div className={s.cardline}>
         <ReactCardFlip isFlipped={flip} 

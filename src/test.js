@@ -8,7 +8,7 @@ import  BookFlip  from "../src/components/BookFlip";
 import Cards from "../src/components/Cards";
 import { ParallaxProvider } from 'react-scroll-parallax';
 import Spin from "../src/components/Spin";
-import Projects from "../src/components/Projects";
+import Form from "./components/Form";
 
 
 
@@ -24,10 +24,9 @@ export default function Test() {
       <Container>
       <Cards />
       </Container>
-      {/* <Container> */}
-      {/* <BookFlip /> */}
-      {/* <Projects /> */}
-      {/* </Container> */}
+      <Container>
+      <Form />
+      </Container>
       </ParallaxProvider>     
     </div>
   );

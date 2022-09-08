@@ -5,7 +5,7 @@ import { Parallax } from 'react-scroll-parallax';
 
 export const Landing = () => {
     return (
-            <Parallax translateY={[-20, 20]}>
+            <Parallax translateY={[0, 0]}>
             {/* <div className={s.ld}>
                 <img src={"assets/bms.png"} className={s.bms} />
                 <img src={"assets/circle.png"} className={s.circle} />

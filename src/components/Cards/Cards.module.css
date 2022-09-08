@@ -1,12 +1,12 @@
 .ht {
   font-size: clamp(3rem, 7vh, 4rem);
-  margin-top: 10rem;
+  /* margin-top: 10rem; */
   color: var(--color-purple);
   text-decoration: underline 1.5px solid;
 }
 
 .cardline {
-  padding-top: 12rem;
+  padding-top: 7rem;
 
   display: grid;
   grid-template-columns: repeat(4, 1fr);
