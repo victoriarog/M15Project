@@ -15,7 +15,7 @@ export const Cards = () => {
         <div className={s.cardline}>
 
         <ReactCardFlip isFlipped={flip} 
-            flipDirection="vertical">
+            flipDirection="horizontal">
             <div class={s.card} onClick={() => setFlip(!flip)}>
                 <div class={s.container}>
                 <img src={"assets/dog2.png"} className={s.cardImg}/>
@@ -53,7 +53,7 @@ export const Cards = () => {
             </ReactCardFlip>
 
             <ReactCardFlip isFlipped={flip2} 
-            flipDirection="vertical">
+            flipDirection="horizontal">
             <div class={s.card} onClick={() => setFlip2(!flip2)}>
                 <div class={s.container}>
                 <img src={"assets/dog2.png"} className={s.cardImg}/>

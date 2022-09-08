@@ -1,12 +1,32 @@
+.ld {
+    float: left;
+    margin-left: -12rem;
+    position: sticky;
+}
+
+.bms {
+    height: 4rem;
+    width: auto;
+    transform: rotate(180deg);
+    z-index: 3;
+}
+
+.circle {
+    height: 5rem;
+    width: auto;
+    padding-bottom: 0.4rem;
+    margin-right: -5rem;
+    z-index: 4;
+}
+
 .introtxt {
     color: var(--color-purple);
-    /* padding-left: 10vh; */
 }
 
 .img {
     position: relative;
     left: 75%;
-    top: 30vh;
+    top: 25vh;
     height: 200px;
     width: auto;
     z-index: 5;

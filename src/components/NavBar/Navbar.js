@@ -12,20 +12,20 @@ export const Navbar = () => {
           axis="horizontal"
           size={64}
         />
-        <li>thing 1</li>
+        <li>Projects</li>
         <Spacer style={{ display: "inline-block" }} size={32} />
-        <li>thing 2</li>
+        <li>About Me</li>
         <Spacer style={{ display: "inline-block" }} size={32} />
-        <li>thing 3</li>
+        <li>Contact</li>
         <Spacer style={{ display: "inline-block" }} size={32} />
-        <li>thing 4</li>
+        <li>???????</li>
         <Spacer
           style={{ display: "inline-block" }}
           axis="horizontal"
           size={64}
         />
       </ul>
-      <h1 className={s.letters}>Lorem ipsum lorem ipsum ;^;</h1>
+      <h1 className={s.letters}>Welcome to the dangerzone</h1>
     </div>
   );
 };
