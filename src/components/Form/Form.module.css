@@ -34,4 +34,5 @@ textarea {
 
 ::placeholder {
     font-family: "Trirong", serif;
+    font-size: 2.5vh;
 }
