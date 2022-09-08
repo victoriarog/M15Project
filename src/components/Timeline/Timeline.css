@@ -10,6 +10,13 @@
     border-radius: 60px;
     background: linear-gradient(180deg, rgba(196, 73, 0, 0) 0%, var(--color-umbra) 100%);
   }
+
+  .ht {
+    font-size: clamp(3rem, 7vh, 4rem);
+    color: var(--color-purple);
+    text-decoration: underline 1.5px solid;
+    float: left !important;
+}
   
 
   

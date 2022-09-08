@@ -12,9 +12,9 @@ export const Navbar = () => {
           axis="horizontal"
           size={64}
         />
-        <li>Projects</li>
-        <Spacer style={{ display: "inline-block" }} size={32} />
         <li>About Me</li>
+        <Spacer style={{ display: "inline-block" }} size={32} />
+        <li>Timeline</li>
         <Spacer style={{ display: "inline-block" }} size={32} />
         <li>Contact</li>
         <Spacer style={{ display: "inline-block" }} size={32} />
