@@ -5,7 +5,7 @@ export const Navbar = () => {
   return (
     <div className={s.nb}>
       <img src={"assets/bmb.png"} className={s.bookmark} />
-      <img src={"assets/line.png"} className={s.line} />
+      <img src={"assets/line2.svg"} className={s.line} />
       <ul className={s.navbar}>
         <Spacer
           style={{ display: "inline-block" }}

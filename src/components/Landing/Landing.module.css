@@ -21,34 +21,35 @@
 
 .introtxt {
     color: var(--color-purple);
+    margin-top: 2rem;
 }
 
 .img {
     position: relative;
     left: 75%;
-    top: 25vh;
+    top: 15rem;
     height: 200px;
     width: auto;
     z-index: 5;
 }
 
 .blob {
-    height: 15rem;
+    height: 40rem;
     width: auto;
-    opacity: 0.7;
+    opacity: 0.5;
     z-index: -5;
     
     position:relative;
-    left: 50rem;
-    top: 10rem;
+    left: 40rem;
+    top: -20rem;
 }
 
 .blob1 {
-    height: 13rem;
+    height: 20rem;
     width: auto;
     z-index: 2;
     
     position: relative;
-    left: 50rem;
-    top: 10rem;
+    left: 20rem;
+    top: -30rem;
 }
