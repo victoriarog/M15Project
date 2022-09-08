@@ -1,34 +1,15 @@
-.ld {
-    float: left;
-    margin-left: -12rem;
-    position: sticky;
-}
 
-.bms {
-    height: 4rem;
-    width: auto;
-    transform: rotate(180deg);
-    z-index: 3;
-}
-
-.circle {
-    height: 5rem;
-    width: auto;
-    padding-bottom: 0.4rem;
-    margin-right: -5rem;
-    z-index: 4;
-}
 
 .introtxt {
     color: var(--color-purple);
-    margin-top: 2rem;
+    margin-top: -17rem;
 }
 
 .img {
     position: relative;
-    left: 75%;
-    top: 15rem;
-    height: 200px;
+    left: 50%;
+    top: 10rem;
+    height: 600px;
     width: auto;
     z-index: 5;
 }
@@ -41,7 +22,7 @@
     
     position:relative;
     left: 40rem;
-    top: -20rem;
+    top: -30rem;
 }
 
 .blob1 {
@@ -50,6 +31,6 @@
     z-index: 2;
     
     position: relative;
-    left: 20rem;
-    top: -30rem;
+    left: 15rem;
+    top: -40rem;
 }

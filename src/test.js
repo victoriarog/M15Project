@@ -8,6 +8,7 @@ import  BookFlip  from "../src/components/BookFlip";
 import Cards from "../src/components/Cards";
 import { ParallaxProvider } from 'react-scroll-parallax';
 import Spin from "../src/components/Spin";
+import Projects from "../src/components/Projects";
 
 
 
@@ -17,17 +18,16 @@ export default function Test() {
     <div className="Test">
       <ParallaxProvider>
       <Container>
-      {/* <Spin /> */}
       <Navbar />
-      {/* <Spacer size={32} /> */}
       <Landing />
       </Container>
       <Container>
       <Cards />
       </Container>
-      <Container>
-      <BookFlip />
-      </Container>
+      {/* <Container> */}
+      {/* <BookFlip /> */}
+      {/* <Projects /> */}
+      {/* </Container> */}
       </ParallaxProvider>     
     </div>
   );

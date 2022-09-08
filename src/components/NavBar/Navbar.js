@@ -4,8 +4,8 @@ import { Spacer } from "../Spacer";
 export const Navbar = () => {
   return (
     <div className={s.nb}>
-      <img src={"assets/bmb.png"} className={s.bookmark} />
-      <img src={"assets/line2.svg"} className={s.line} />
+      {/* <img src={"assets/bmb.png"} className={s.bookmark} />
+      <img src={"assets/line2.svg"} className={s.line} /> */}
       <ul className={s.navbar}>
         <Spacer
           style={{ display: "inline-block" }}
@@ -25,7 +25,7 @@ export const Navbar = () => {
           size={64}
         />
       </ul>
-      <h1 className={s.letters}>Welcome to the dangerzone</h1>
+      {/* <h1 className={s.letters}>Welcome to the dangerzone</h1> */}
     </div>
   );
 };

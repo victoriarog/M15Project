@@ -18,7 +18,7 @@ export const Cards = () => {
             flipDirection="horizontal">
             <div class={s.card} onClick={() => setFlip(!flip)}>
                 <div class={s.container}>
-                <img src={"assets/dog2.png"} className={s.cardImg}/>
+                <img src={"assets/body.png"} className={s.cardImg}/>
                 <Texts>Who am I? <br/><br/></Texts>
                 <p className={s.ct}>A bit about the one and only me</p>
                 </div>
@@ -42,7 +42,7 @@ export const Cards = () => {
             flipDirection="vertical">
             <div class={s.card} onClick={() => setFlip1(!flip1)}>
                 <div class={s.container}>
-                <img src={"assets/dog2.png"} className={s.cardImg}/>
+                <img src={"assets/nbook.png"} className={s.cardImg}/>
                 <Texts>Education <br/><br/></Texts>
                 <p className={s.ct}>Where and what</p>
                 </div>
@@ -66,7 +66,7 @@ export const Cards = () => {
             flipDirection="horizontal">
             <div class={s.card} onClick={() => setFlip2(!flip2)}>
                 <div class={s.container}>
-                <img src={"assets/dog2.png"} className={s.cardImg}/>
+                <img src={"assets/games.png"} className={s.cardImg}/>
                 <Texts>Hobbies <br/><br/></Texts>
                 <p className={s.ct}>Me Time time</p>
                 </div>
@@ -88,7 +88,7 @@ export const Cards = () => {
             flipDirection="vertical">
             <div class={s.card} onClick={() => setFlip3(!flip3)}>
                 <div class={s.container}>
-                <img src={"assets/dog2.png"} className={s.cardImg}/>
+                <img src={"assets/mark.png"} className={s.cardImg}/>
                 <Texts>Random <br/> <br/></Texts>
                 <p className={s.ct}>Some fun info bout me</p>
                 </div>
