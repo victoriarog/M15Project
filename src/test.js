@@ -9,6 +9,7 @@ import Cards from "../src/components/Cards";
 import { ParallaxProvider } from 'react-scroll-parallax';
 import Spin from "../src/components/Spin";
 import Form from "./components/Form";
+import Timeline  from "./components/Timeline";
 
 
 
@@ -23,6 +24,9 @@ export default function Test() {
       </Container>
       <Container>
       <Cards />
+      </Container>
+      <Container>
+      <Timeline />
       </Container>
       <Container>
       <Form />

@@ -10,7 +10,7 @@ export const Form = () => {
         setTextarea(event.target.value)
       }
     return (
-        <div>
+        <div className={s.thing}>
         <h2 className={s.ht}>Talk to the form:</h2> <br/> <br/>
         <form>
         <label>Enter your name:&nbsp;&nbsp;
