@@ -3,7 +3,7 @@ export const Times = [
       year: 2017,
       title: {
         name: "British School of Barcelona",
-        cargo: "Graduated",
+        cargo: "Graduate",
       },
       description:
         "Graduated from High School, finishing my A-Levels with good grades",

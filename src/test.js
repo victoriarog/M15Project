@@ -8,6 +8,7 @@ import Cards from "../src/components/Cards";
 import { ParallaxProvider } from 'react-scroll-parallax';
 import Form from "./components/Form";
 import Timeline  from "./components/Timeline";
+import Projects from "./components/Projects";
 
 
 
@@ -25,6 +26,9 @@ export default function Test() {
       </Container>
       <Container>
       <Timeline />
+      </Container>
+      <Container>
+      <Projects />
       </Container>
       <Container>
       <Form />

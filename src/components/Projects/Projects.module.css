@@ -1,0 +1,40 @@
+.cardImg {
+    height: 150px;
+    width: auto;
+  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .ht {
+    font-size: clamp(3rem, 7vh, 4rem);
+    color: var(--color-purple);
+    text-decoration: underline 1.5px solid;
+  }
+  
+  .prjLine {
+  padding-top: 5rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 3rem; 
+  }
+
+  .card {
+    background-color:  transparent;
+    border: 1px var(--color-purple) solid;
+    height: 17rem;
+    width: 17rem;
+  }
+
+  
+
+  .container {
+    padding: 1rem 2rem;
+  }
+
+  .ct {
+    font-size: clamp(0.5rem, 1.7vh, 1.1rem);
+  }

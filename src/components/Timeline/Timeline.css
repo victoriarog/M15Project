@@ -18,5 +18,8 @@
     float: left !important;
 }
   
+.year {
+  text-decoration: dotted 1px;
+}
 
   

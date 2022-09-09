@@ -44,9 +44,6 @@
   left: 0px;
 }
   
-/* .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-} */
 
 .cardImg {
   height: 150px;
@@ -58,7 +55,7 @@
 }
 
 .ct {
-  font-size: clamp(0.5rem, 1.8vh, 1.5rem);
+  font-size: clamp(0.5rem, 1.7vh, 1.1rem);
 }
 
 .container {
