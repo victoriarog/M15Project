@@ -3,6 +3,7 @@
   /* margin-top: 10rem; */
   color: var(--color-purple);
   text-decoration: underline 1.5px solid;
+  text-underline-offset: 10px;
 }
 
 .cardline {
@@ -16,10 +17,6 @@
 }
 
 .card {
-  /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s; */
- 
-
   background-color:  transparent;
   border: 1px var(--color-purple) solid;
   height: 20rem;

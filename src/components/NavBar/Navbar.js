@@ -18,14 +18,13 @@ export const Navbar = () => {
         <Spacer style={{ display: "inline-block" }} size={32} />
         <li>Contact</li>
         <Spacer style={{ display: "inline-block" }} size={32} />
-        <li>???????</li>
+        <li href="https://youtu.be/dQw4w9WgXcQ">???????</li>
         <Spacer
           style={{ display: "inline-block" }}
           axis="horizontal"
           size={64}
         />
       </ul>
-      {/* <h1 className={s.letters}>Welcome to the dangerzone</h1> */}
     </div>
   );
 };

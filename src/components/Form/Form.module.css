@@ -8,6 +8,7 @@
     font-size: clamp(3rem, 7vh, 4rem);
     color: var(--color-purple);
     text-decoration: underline 1.5px solid;
+    text-underline-offset: 10px;
 }
 
 label {

@@ -16,10 +16,8 @@
     color: var(--color-purple);
     text-decoration: underline 1.5px solid;
     float: left !important;
+    text-underline-offset: 5px;
 }
-  
-.year {
-  text-decoration: dotted 1px;
-}
+ 
 
   

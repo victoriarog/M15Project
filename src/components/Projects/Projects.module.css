@@ -11,6 +11,7 @@
     font-size: clamp(3rem, 7vh, 4rem);
     color: var(--color-purple);
     text-decoration: underline 1.5px solid;
+    text-underline-offset: 10px;
   }
   
   .prjLine {
@@ -24,12 +25,12 @@
 
   .card {
     background-color:  transparent;
-    border: 1px var(--color-purple) solid;
+    border-bottom: 1px var(--color-purple) solid;
+    border-right: 1px var(--color-purple) solid;
     height: 17rem;
     width: 17rem;
   }
 
-  
 
   .container {
     padding: 1rem 2rem;

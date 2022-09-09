@@ -3,6 +3,7 @@ import { Heading1, Heading2, SectionTitle, Texts } from "../Text";
 import { Parallax } from 'react-scroll-parallax';
 import ReactCardFlip from "react-card-flip";
 import React, { useState } from "react";
+import HeadShake from 'react-reveal/HeadShake';
 
 
 export const Cards = () => {
@@ -14,6 +15,8 @@ export const Cards = () => {
         <Parallax translateY={[0, 0]} speed={5}>
         <h2 className={s.ht}>About me</h2>
         <div className={s.cardline}>
+
+        <HeadShake delay={100}>
         <ReactCardFlip isFlipped={flip} 
             flipDirection="horizontal">
             <div class={s.card} onClick={() => setFlip(!flip)}>
@@ -37,7 +40,9 @@ export const Cards = () => {
                 </div>
             </div>
             </ReactCardFlip>
+            </HeadShake>
 
+            <HeadShake delay={80}>
             <ReactCardFlip isFlipped={flip1} 
             flipDirection="vertical">
             <div class={s.card} onClick={() => setFlip1(!flip1)}>
@@ -61,7 +66,9 @@ export const Cards = () => {
                 </div>
             </div>
             </ReactCardFlip>
+            </HeadShake>
 
+            <HeadShake delay={30}>
             <ReactCardFlip isFlipped={flip2} 
             flipDirection="horizontal">
             <div class={s.card} onClick={() => setFlip2(!flip2)}>
@@ -83,7 +90,9 @@ export const Cards = () => {
                 </div>
             </div>
             </ReactCardFlip>
+            </HeadShake>
 
+            <HeadShake delay={120}>
             <ReactCardFlip isFlipped={flip3} 
             flipDirection="vertical">
             <div class={s.card} onClick={() => setFlip3(!flip3)}>
@@ -105,6 +114,7 @@ export const Cards = () => {
                 </div>
             </div>
             </ReactCardFlip>
+            </HeadShake>
 
       </div> 
       </Parallax>
