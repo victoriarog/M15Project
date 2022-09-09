@@ -2,6 +2,7 @@
   "name": "style-guide-v10",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://victoriarog.github.io/M15Project",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
